@@ -552,7 +552,7 @@ GameObject:
   - component: {fileID: 1876921520}
   - component: {fileID: 1876921519}
   - component: {fileID: 1876921518}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -720,7 +720,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2be396f0d396b1d468012e7f5cdeea91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  moveSpeed: 10
+  groundDrag: 5
+  jumpForce: 2
+  jumpCooldown: 0.25
+  airMultiplier: 0.4
+  jumpKey: 32
+  playerHeight: 2
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 1024
   orientation: {fileID: 1598295411}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
